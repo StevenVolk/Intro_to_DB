@@ -1,2 +1,2 @@
 USE alx_book_store;
-EXPLAIN books;
+EXEC sp_help books;
