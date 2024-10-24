@@ -1,9 +1,9 @@
-SELECT COLUMN_NAME, COLUMN_TYPE, TABLE_SCHEMA, TABLE_NAME
+SELECT *
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE table_name = 'Books'
 [AND table_schema = 'alx_book_store']
 [AND column_name LIKE 'wild']
-SHOW COLUMNS
+SHOW COLUMNS, TABLE_SCHEMA, TABLE_NAME
 FROM 'Books'
 [FROM 'alx_book_store']
 [LIKE 'wild']
